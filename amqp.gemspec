@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ["README.md"] + Dir.glob("docs/*")
 
   # Dependencies
-  s.add_dependency "eventmachine"
+  s.add_development_dependency "eventmachine"
   s.add_dependency "amq-protocol", ">= 2.0.1"
 
   s.rubyforge_project = "amqp"
